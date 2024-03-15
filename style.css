@@ -11,7 +11,6 @@
 }
 
 body {
-    /* background-color: red !important; */
     background-color: var(--bg-clr) !important;
 }
 
@@ -19,9 +18,7 @@ body {
     font-size: 1.4rem;
 }
 
-
 .inputs {
-    /* background: green; */
     margin: 2rem 0 2rem 0;
     display: flex;
     justify-content: center;
@@ -44,7 +41,6 @@ body {
 }
 
 #inp:focus {
-
     border-bottom-color: var(--prim-clr);
 }
 
@@ -57,8 +53,6 @@ body {
     outline: 0;
     border-radius: 12px;
 }
-
-
 
 #playBtn {
     width: 4rem;
@@ -74,7 +68,6 @@ body {
     font-size: 1.5rem;
 }
 
-
 @media only screen and (max-width: 425px) {
     body {
         background-color: red;
@@ -82,14 +75,9 @@ body {
 
     .inputs {
         column-gap: 2rem;
-
     }
+
     #playBtn {
         right: 2rem;
     }
-
-    /* #getBtn {
-        transform: scale(.85);
-    } */
-
 }
